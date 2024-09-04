@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 20px;
+	background-color: #f0f0f0;
+}
+h1 {
+	text-align: center;
+	color: #333;
+}
+.submit {
+	width: 100%;
+	background-color: #ad171c;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.edit,
+.delete {
+	background-color: #ad171c;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.submit:hover {
+	background-color: #8e1317;
+}
+table {
+	margin-top: 50px;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+	text-align: left;
+	padding: 12px;
+	border-bottom: 1px solid #ddd;
+}
+th {
+	background-color: #ad171c;
+	color: white;
+}
+tr:hover {
+	background-color: #f5f5f5;
+}
+.action-buttons button {
+	margin-right: 5px;
+}
