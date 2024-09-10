@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Render HTML with JavaScript</title>
+	</head>
+	<body>
+		<div id="app"></div>
+
+		<script>
+			// Lấy phần tử container nơi sẽ render HTML
+			const app = document.getElementById("app");
+
+			// Tạo một phần tử mới
+			const heading = document.createElement("h1");
+			heading.textContent = "Hello, World!";
+
+			// Tạo một đoạn văn bản
+			const paragraph = document.createElement("p");
+			paragraph.textContent =
+				"This is a simple example of rendering HTML using JavaScript.";
+
+			// Tạo một nút bấm
+			const button = document.createElement("button");
+			button.textContent = "Click me";
+
+			// Thêm event cho nút bấm
+			button.addEventListener("click", () => {
+				alert("Button clicked!");
+			});
+
+			// Append các phần tử vào DOM
+			app.appendChild(heading);
+			app.appendChild(paragraph);
+			app.appendChild(button);
+		</script>
+	</body>
+</html>
